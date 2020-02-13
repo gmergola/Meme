@@ -1,41 +1,3 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Meme Generator</title>
-    <link rel="stylesheet" href="meme.css">
-    <link href="https://fonts.googleapis.com/css?family=Coda+Caption:800|Montserrat&display=swap" rel="stylesheet">
-</head>
-<body>
-    <header>
-        <div id = "titlememe">
-            Make A Meme!
-        </div>
-        <br>
-        <div id= "directions">
-            Fill out the form below to make your own meme!
-        </div>
-        <br>
-        <form id="frm1" action="/action_page.php">
-            <span class= "label">Image URL:</span><input type="url" name="imglink" class= "textbox" id="imglink" placeholder="Insert image URL here" /><br>
-            <hr>
-            <span class= "label">Text on Top:</span><input type="text" name="texttop" class= "textbox" id= "textontop" placeholder= "Insert your text here"><br>
-            <hr>
-            <span class= "label">Text on Bottom:</span><input type="text" name="textbottom" class= "textbox" id= "textonbottom" placeholder= "Insert your text here"><br>
-            <hr>
-            <input id= "button" type= "submit" value = "add meme" onclick="showFunction()">
-        </form>
-    </header>
-    <div id= "photoandmeme">
-        <div class = "thetext" id="thememe"></div>
-        <div class = "thetext" id= "textagain"></div>
-        <div id="photo"></div>
-    </div>
-    <script src="meme.js"></script>
-</body>
-</html> -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -58,20 +20,20 @@
         </div>
         <hr>
         <form id="frm1" action="/action_page.php" methon= "post">
-            <span class= "label">Image URL:</span><input type="url" name="imglink" class= "textbox" id="imglink"  value= "https://www.kingarthurflour.com/sites/default/files/recipe_legacy/48-3-large.jpg" placeholder="Insert image URL here" /><br>
+            <span class= "label">Image URL:</span><input type="url" name="imglink" class= "textbox" id="imglink" value= "https://i0.wp.com/cdn-prod.medicalnewstoday.com/content/images/articles/270/270202/cups-of-coffee.jpg?w=1155&h=1541" placeholder="Insert image URL here" /><br>
             <hr>
             <span class= "label">Text on Top:</span><input type="text" name="texttop" class= "textbox" id= "textontop" placeholder= "Insert your text here"><br>
             <hr>
             <span class= "label">Text on Bottom:</span><input type="text" name="textbottom" class= "textbox" id= "textonbottom" placeholder= "Insert your text here"><br>
             <hr>
-            <input id= "button" type= "submit" value = "add meme" onclick="showFunction()">
+            <input id= "button" type= "submit" value = "add meme">
         </form>
     </header>
-    <div id= "photoandmeme">
-        <div class = "thetext" id="thememe"></div>
-        <div class = "thetext" id= "textagain"></div>
-        <div id="photo"></div>
-    </div>
+    <section>
+        <div id= "gallery">
+
+        </div>
+    </section>
     <script src="meme.js"></script>
 </body>
 </html>
