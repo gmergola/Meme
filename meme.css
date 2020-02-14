@@ -18,7 +18,7 @@ body{
     -webkit-text-fill-color: white;
 }
 
-#directions{
+.directions{
     font-size: 30px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
@@ -65,6 +65,10 @@ body{
     text-align: center;
 }
 
+.delete-hover{
+    display: none;
+}
+
 .image:hover{
     border:  5px solid red;
     border-radius: 200px;
@@ -77,7 +81,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     top: 0px;
-    font-size: 40px;
+    font-size: 35px;
     font-family: 'Coda Caption', sans-serif;
     color: black;
 	-webkit-text-stroke: 1px black;
@@ -91,7 +95,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     bottom: 0px;
-    font-size: 40px;
+    font-size: 35px;
     font-family: 'Coda Caption', sans-serif;
     color: black;
 	-webkit-text-stroke: 1px black;
